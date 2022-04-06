@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <style>
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 4px;
+                }
+
+                /* Create four equal columns that sits next to each other */
+                .column {
+                flex: 25%;
+                max-width: 25%;
+                padding: 0 4px;
+                }
+
+                .column img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
+                }
+
+                /* Responsive layout - makes a two column-layout instead of four columns */
+                @media screen and (max-width: 800px) {
+                .column {
+                    flex: 50%;
+                    max-width: 50%;
+                }
+                }
+
+                /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+                @media screen and (max-width: 600px) {
+                .column {
+                    flex: 100%;
+                    max-width: 100%;
+                }
+                }
+            #tribute-info{
+                font-size:25;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div id="main">
+            <center><h1 id="title">Jimi Hendrix</h1></center>
+
+            <div id="img-div">
+                <div class="row">
+                    <div class=column></div>
+                    <div class="column">
+                        <img src="jimi-guitar4.jpg" alt="Jimi Guitar" id="image">
+                        <img src="Imagen1.jpg" alt="Jimi Hendrix" id="image">
+                    </div>
+                    <div class="column">
+                        <img src="jimi-flower.jpg" alt="Jimi Flower" id="image">
+                        <img src="jimi-guitar2.jpg" alt="Jimi Guitar" id="image">
+                        <img src="jimi-colors.jpg" alt="Jimi Face" id="image">
+                    </div>
+                </div>
+            </div>
+            <center><p id="img-caption"> <em>One of the Greatest guitar players of all time </em></p></center>
+        </div>
+        
+        </div>
+        <div id="tribute-info">
+            <center>
+            <p>Well she's walking through the clouds</p>
+            <p>With a circus mind that's running wild</p>
+            <p>Butterflies and zebras</p>
+            <p>And moonbeams and a fairy tale</p>
+            <p>That's all she ever thinks about</p>
+            <p>Riding the wind</p>
+            <p>When I'm sad she comes to me</p>
+            <p>With a thousand smiles she gives to me free</p>
+            <p>It's alright she says...it's alright</p>
+            <p>Take anything you want from me</p>
+            <p>Anything</p>
+            <p>Fly on little wing</p>
+            <p>Yeah, yeah, yeah</p>
+            <p>Fly on little wing</p>
+            </center>
+        </div>
+        <center><a href="https://en.wikipedia.org/wiki/Jimi_Hendrix" target="_blanck" id="tribute-link">
+            Learn more about Jimi
+        </a></center>
+    </body>
+
+
+</html>
+
+
